@@ -1,4 +1,5 @@
 <?php
+    // PHP에서 레코드 삽입하기
     $servername = "localhost";  // 서버명
     $username = "user";     // 사용자명
     $password = "12345";    // 비밀번호

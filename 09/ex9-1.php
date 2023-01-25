@@ -1,4 +1,5 @@
 <?php
+    // MySQL 서버 접속하기
     $servername = "localhost";  // 서버명
     $username = "user";    // 사용자명
     $password = "12345";    // 비밀번호

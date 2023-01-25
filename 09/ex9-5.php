@@ -1,4 +1,5 @@
 <?php
+    // 전체 레코드의 name, tel, address 필드 값 출력하기
     $servername = "localhost";      // 서버명
     $username = "user";             // 사용자명
     $password = "12345";            // 비밀번호
