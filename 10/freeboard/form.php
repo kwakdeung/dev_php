@@ -17,7 +17,7 @@
             document.board.pass.focus();
             return;
         }
-        if(!document.board.content.value) { // 제목 체크
+        if(!document.board.subject.value) { // 제목 체크
             alert("제목을 입력하세요!");
             document.board.subject.focus();
             return;
@@ -46,7 +46,7 @@
             </li>
             <li>
                 <span class="col1">제목 : </span>
-                <span class="col2"><input name="pass" type="text"></span>
+                <span class="col2"><input name="subject" type="text"></span>
             </li>
             <li class="area">
                 <span class="col1">내용 : </span>
