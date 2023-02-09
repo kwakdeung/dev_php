@@ -26,11 +26,6 @@
             document.member.name.focus();
             return;
         }
-        if (!document.member.id.value) {
-            alert("아이디를 입력하세요!");
-            document.member.id.focus();
-            return;
-        }
         if (!document.member.email.value) {
             alert("이메일 주소를 입력하세요!");
             document.member.email.focus();
@@ -66,6 +61,10 @@
         <span class="col1">아이디</span>
         <span class="col2"><input type="text" name="id"></span>
         <span class="col3"><button type="button" onclick="check_id()">중복체크</button></span>
+    </li>
+    <li>
+        <span class="col1">비밀번호</span>
+        <span class="col2"><input type="password" name="pass"></span>
     </li>
     <li>
         <span class="col1">비밀번호 확인</span>
